@@ -33,7 +33,7 @@ int pathFinder(std::vector<int>& path, std::vector<std::tuple<int,int,int>>& edg
 std::vector<std::tuple<int,int,int>> generateGraph(int& n, std::vector<int>& W){
     std::vector<std::tuple<int,int,int>> edges;
     int m = (n * (n - 1)) / 2; // number of edges in a complete graph
-    int j = 0; // number of the vertex next to the vertex i
+  //  int j = 0; // number of the vertex next to the vertex i
     int random;
     int len = W.size(); // length of vector W
     int sel_elem;
